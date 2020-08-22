@@ -1,0 +1,91 @@
+$ curl -v -H "Content-Type: application/json" -d '{"username":"unamerkel","password":"changeme","firstName":"Una","lastName":"Merkel","email":"unamerkel@example.com"}' localhost:8080/profile
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying ::1:8080...
+* Connected to localhost (::1) port 8080 (#0)
+> POST /profile HTTP/1.1
+> Host: localhost:8080
+> User-Agent: curl/7.71.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 116
+>
+} [116 bytes data]
+* upload completely sent off: 116 out of 116 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< Date: Thu, 20 Aug 2020 03:33:05 GMT
+<
+{ [129 bytes data]
+100   239    0   123  100   116   2050   1933 --:--:-- --:--:-- --:--:--  3983{"id":2,"username":"unamerkel","password":"changeme","firstName":"Una","lastName":"Merkel","email":"unamerkel@example.com"}
+* Connection #0 to host localhost left intact
+
+
+
+$ curl -v localhost:8080/profile/unamerkel
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying ::1:8080...
+* Connected to localhost (::1) port 8080 (#0)
+> GET /profile/unamerkel HTTP/1.1
+> Host: localhost:8080
+> User-Agent: curl/7.71.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< Date: Thu, 20 Aug 2020 03:34:54 GMT
+<
+{ [129 bytes data]
+100   123    0   123    0     0   4730      0 --:--:-- --:--:-- --:--:--  4920{"id":2,"username":"unamerkel","password":"changeme","firstName":"Una","lastName":"Merkel","email":"unamerkel@example.com"}
+* Connection #0 to host localhost left intact
+
+
+
+$ curl -v localhost:8080/profile/russcolombo
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying ::1:8080...
+* Connected to localhost (::1) port 8080 (#0)
+> GET /profile/russcolombo HTTP/1.1
+> Host: localhost:8080
+> User-Agent: curl/7.71.1
+> Accept: */*
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 404
+< Content-Length: 0
+< Date: Thu, 20 Aug 2020 03:36:26 GMT
+<
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+
+
+
+$ curl -v -X PUT -H "Content-Type: application/json" -d '{"id":"6","username":"unamerkel","password":"newpass","firstName":"Una","lastName":"Merkel","email":"unamerkel@example.com"}' localhost:8080/profile/unamerkel
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying ::1:8080...
+* Connected to localhost (::1) port 8080 (#0)
+> PUT /profile/unamerkel HTTP/1.1
+> Host: localhost:8080
+> User-Agent: curl/7.71.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 124
+>
+} [124 bytes data]
+* upload completely sent off: 124 out of 124 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200
+< Content-Type: application/json
+< Transfer-Encoding: chunked
+< Date: Thu, 20 Aug 2020 03:43:52 GMT
+<
+{ [128 bytes data]
+100   246    0   122  100   124   1671   1698 --:--:-- --:--:-- --:--:--  3369{"id":6,"username":"unamerkel","password":"newpass","firstName":"Una","lastName":"Merkel","email":"unamerkel@example.com"}
+* Connection #0 to host localhost left intact

@@ -1,0 +1,676 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.manning.pl:profile-api >---------------------
+[INFO] Building Profile Management 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ profile-api ---
+[INFO] Deleting D:\appdata\workspace-spring-security\milestone-1-step-3\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ profile-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ profile-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to D:\appdata\workspace-spring-security\milestone-1-step-3\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ profile-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ profile-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to D:\appdata\workspace-spring-security\milestone-1-step-3\target\test-classes
+[INFO] /D:/appdata/workspace-spring-security/milestone-1-step-3/src/test/java/liveproject/m2k8s/service/ProfileServiceTest.java: Some input files use or override a deprecated API.
+[INFO] /D:/appdata/workspace-spring-security/milestone-1-step-3/src/test/java/liveproject/m2k8s/service/ProfileServiceTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ profile-api ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+23:51:04.628 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class liveproject.m2k8s.web.ProfileControllerTest]
+23:51:04.633 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:51:04.642 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:51:04.697 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [liveproject.m2k8s.web.ProfileControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:51:04.718 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [liveproject.m2k8s.web.ProfileControllerTest], using SpringBootContextLoader
+23:51:04.723 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [liveproject.m2k8s.web.ProfileControllerTest]: class path resource [liveproject/m2k8s/web/ProfileControllerTest-context.xml] does not exist
+23:51:04.724 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [liveproject.m2k8s.web.ProfileControllerTest]: class path resource [liveproject/m2k8s/web/ProfileControllerTestContext.groovy] does not exist
+23:51:04.724 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [liveproject.m2k8s.web.ProfileControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:51:04.725 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [liveproject.m2k8s.web.ProfileControllerTest]: ProfileControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:51:04.949 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\appdata\workspace-spring-security\milestone-1-step-3\target\classes\liveproject\m2k8s\Application.class]
+23:51:04.953 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration liveproject.m2k8s.Application for test class liveproject.m2k8s.web.ProfileControllerTest
+23:51:05.077 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [liveproject.m2k8s.web.ProfileControllerTest]: using defaults.
+23:51:05.078 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener]
+23:51:05.100 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@10cf09e8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1921ad94, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@ee86bcb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@177bea38, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7f132176, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6bca7e0d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2631f68c, org.springframework.test.context.event.EventPublishingTestExecutionListener@6ed3f258, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@8ad6665, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@30af5b6b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@19835e64, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@68b32e3e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@bcef303]
+23:51:05.104 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [liveproject.m2k8s.web.ProfileControllerTest]
+23:51:05.105 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [liveproject.m2k8s.web.ProfileControllerTest]
+23:51:05.124 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class liveproject.m2k8s.web.ProfileIntegrationTest]
+23:51:05.124 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:51:05.125 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:51:05.125 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [liveproject.m2k8s.web.ProfileIntegrationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:51:05.127 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [liveproject.m2k8s.web.ProfileIntegrationTest], using SpringBootContextLoader
+23:51:05.129 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [liveproject.m2k8s.web.ProfileIntegrationTest]: class path resource [liveproject/m2k8s/web/ProfileIntegrationTest-context.xml] does not exist
+23:51:05.130 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [liveproject.m2k8s.web.ProfileIntegrationTest]: class path resource [liveproject/m2k8s/web/ProfileIntegrationTestContext.groovy] does not exist
+23:51:05.130 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [liveproject.m2k8s.web.ProfileIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:51:05.130 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [liveproject.m2k8s.web.ProfileIntegrationTest]: ProfileIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:51:05.138 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration liveproject.m2k8s.Application for test class liveproject.m2k8s.web.ProfileIntegrationTest
+23:51:05.142 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [liveproject.m2k8s.web.ProfileIntegrationTest]: using defaults.
+23:51:05.142 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener]
+23:51:05.143 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@531f4093, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@62ef27a8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6436a7db, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@460ebd80, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6f3c660a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@74f5ce22, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@25aca718, org.springframework.test.context.event.EventPublishingTestExecutionListener@16fdec90, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1afdd473, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@40238dd0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7776ab, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@79179359, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@dbd8e44]
+23:51:05.143 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [liveproject.m2k8s.web.ProfileIntegrationTest]
+23:51:05.143 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [liveproject.m2k8s.web.ProfileIntegrationTest]
+23:51:05.154 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class liveproject.m2k8s.web.ProfileControllerTest]
+23:51:05.154 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:51:05.155 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:51:05.156 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [liveproject.m2k8s.web.ProfileControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:51:05.157 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [liveproject.m2k8s.web.ProfileControllerTest], using SpringBootContextLoader
+23:51:05.159 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [liveproject.m2k8s.web.ProfileControllerTest]: class path resource [liveproject/m2k8s/web/ProfileControllerTest-context.xml] does not exist
+23:51:05.160 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [liveproject.m2k8s.web.ProfileControllerTest]: class path resource [liveproject/m2k8s/web/ProfileControllerTestContext.groovy] does not exist
+23:51:05.160 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [liveproject.m2k8s.web.ProfileControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:51:05.160 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [liveproject.m2k8s.web.ProfileControllerTest]: ProfileControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:51:05.167 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration liveproject.m2k8s.Application for test class liveproject.m2k8s.web.ProfileControllerTest
+23:51:05.171 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [liveproject.m2k8s.web.ProfileControllerTest]: using defaults.
+23:51:05.171 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener]
+23:51:05.172 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6e950bcf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@16414e40, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@74bada02, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@525575, org.springframework.test.context.support.DirtiesContextTestExecutionListener@46dffdc3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5a709816, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@78383390, org.springframework.test.context.event.EventPublishingTestExecutionListener@6ad3381f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@53dbe163, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@db57326, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@34a875b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4748a0f9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b14918a]
+23:51:05.173 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [liveproject.m2k8s.web.ProfileControllerTest]
+23:51:05.173 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [liveproject.m2k8s.web.ProfileControllerTest]
+23:51:05.175 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class liveproject.m2k8s.web.ProfileIntegrationTest]
+23:51:05.176 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:51:05.176 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:51:05.176 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [liveproject.m2k8s.web.ProfileIntegrationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:51:05.177 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [liveproject.m2k8s.web.ProfileIntegrationTest], using SpringBootContextLoader
+23:51:05.178 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [liveproject.m2k8s.web.ProfileIntegrationTest]: class path resource [liveproject/m2k8s/web/ProfileIntegrationTest-context.xml] does not exist
+23:51:05.179 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [liveproject.m2k8s.web.ProfileIntegrationTest]: class path resource [liveproject/m2k8s/web/ProfileIntegrationTestContext.groovy] does not exist
+23:51:05.179 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [liveproject.m2k8s.web.ProfileIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:51:05.179 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [liveproject.m2k8s.web.ProfileIntegrationTest]: ProfileIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:51:05.183 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration liveproject.m2k8s.Application for test class liveproject.m2k8s.web.ProfileIntegrationTest
+23:51:05.187 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [liveproject.m2k8s.web.ProfileIntegrationTest]: using defaults.
+23:51:05.187 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener]
+23:51:05.188 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@176b3f44, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6ee6f53, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@421bba99, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5d12a356, org.springframework.test.context.support.DirtiesContextTestExecutionListener@134d26af, org.springframework.test.context.transaction.TransactionalTestExecutionListener@66ac5762, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@797cf65c, org.springframework.test.context.event.EventPublishingTestExecutionListener@31bcf236, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4b3ed2f0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4fad9bb2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@517d4a0d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7862f56, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3a12c404]
+23:51:05.188 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [liveproject.m2k8s.web.ProfileIntegrationTest]
+23:51:05.189 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [liveproject.m2k8s.web.ProfileIntegrationTest]
+[INFO] Running liveproject.m2k8s.service.ProfileServiceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.577 s - in liveproject.m2k8s.service.ProfileServiceTest
+23:51:05.855 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [liveproject.m2k8s.web.ProfileControllerTest]
+23:51:05.855 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [liveproject.m2k8s.web.ProfileControllerTest]
+[INFO] Running liveproject.m2k8s.web.ProfileControllerTest
+23:51:05.855 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [liveproject.m2k8s.web.ProfileControllerTest]
+23:51:05.855 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [liveproject.m2k8s.web.ProfileControllerTest]
+23:51:05.855 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [liveproject.m2k8s.web.ProfileControllerTest]
+23:51:05.856 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [liveproject.m2k8s.web.ProfileControllerTest]
+23:51:05.859 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@77c7ed8e testClass = ProfileControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@453d496b testClass = ProfileControllerTest, locations = '{}', classes = '{class liveproject.m2k8s.Application}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@e15b7e8, [ImportsContextCustomizer@66bacdbc key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7db12bb6, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@73e9cf30, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@885a39d2, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@63376bed, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+23:51:05.861 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [liveproject.m2k8s.web.ProfileControllerTest]
+23:51:05.862 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [liveproject.m2k8s.web.ProfileControllerTest]
+23:51:05.895 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.9.RELEASE)
+
+2020-08-19 23:51:06.380  INFO 7408 --- [           main] l.m2k8s.web.ProfileControllerTest        : Starting ProfileControllerTest on Jeff-LAPTOP1 with PID 7408 (started by Jeff in D:\appdata\workspace-spring-security\milestone-1-step-3)
+2020-08-19 23:51:06.382  INFO 7408 --- [           main] l.m2k8s.web.ProfileControllerTest        : The following profiles are active: test
+2020-08-19 23:51:07.798  INFO 7408 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-19 23:51:07.906  INFO 7408 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96ms. Found 1 JPA repository interfaces.
+2020-08-19 23:51:08.182  INFO 7408 --- [           main] o.s.c.a.ConfigurationClassEnhancer       : @Bean method ApplicationConfig.propertySourcesPlaceholderConfigurer is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2020-08-19 23:51:08.827  INFO 7408 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-19 23:51:08.910  INFO 7408 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-19 23:51:08.967  INFO 7408 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-19 23:51:09.212  INFO 7408 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-19 23:51:09.460  INFO 7408 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-19 23:51:09.482  INFO 7408 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: 
+    
+    create table emp_profile (
+       id bigint generated by default as identity,
+        email varchar(255) not null,
+        first_name varchar(30) not null,
+        last_name varchar(30) not null,
+        password varchar(25) not null,
+        username varchar(16) not null,
+        primary key (id)
+    )
+2020-08-19 23:51:10.143  INFO 7408 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-19 23:51:10.151  INFO 7408 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-19 23:51:10.818  WARN 7408 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-19 23:51:11.244  INFO 7408 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 23:51:13.399  INFO 7408 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-08-19 23:51:13.399  INFO 7408 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-08-19 23:51:13.418  INFO 7408 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-08-19 23:51:13.463  INFO 7408 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 64 ms
+2020-08-19 23:51:13.516  INFO 7408 --- [           main] l.m2k8s.web.ProfileControllerTest        : Started ProfileControllerTest in 7.609 seconds (JVM running for 9.63)
+2020-08-19 23:51:13.866  WARN 7408 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<liveproject.m2k8s.Profile> liveproject.m2k8s.web.ProfileController.updateProfile(liveproject.m2k8s.Profile): [Field error in object 'profile' on field 'password': rejected value [null]; codes [NotNull.profile.password,NotNull.password,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [profile.password,password]; arguments []; default message [password]]; default message [must not be null]] ]
+
+MockHttpServletRequest:
+      HTTP Method = PUT
+      Request URI = /profile/cheese
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"118"]
+             Body = {"id":null,"username":"cheese","password":null,"firstName":"Chuck","lastName":"Cheese","email":"cecheese@example.com"}
+    Session Attrs = {}
+
+Handler:
+             Type = liveproject.m2k8s.web.ProfileController
+           Method = liveproject.m2k8s.web.ProfileController#updateProfile(Profile)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.web.bind.MethodArgumentNotValidException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2020-08-19 23:51:13.894  WARN 7408 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> liveproject.m2k8s.web.ProfileController.processRegistration(liveproject.m2k8s.Profile): [Field error in object 'profile' on field 'firstName': rejected value [null]; codes [NotNull.profile.firstName,NotNull.firstName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [profile.firstName,firstName]; arguments []; default message [firstName]]; default message [must not be null]] ]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /profile
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"120"]
+             Body = {"id":null,"username":"cheese","password":"stilton","firstName":null,"lastName":"Cheese","email":"cecheese@example.com"}
+    Session Attrs = {}
+
+Handler:
+             Type = liveproject.m2k8s.web.ProfileController
+           Method = liveproject.m2k8s.web.ProfileController#processRegistration(Profile)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.web.bind.MethodArgumentNotValidException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2020-08-19 23:51:13.909  WARN 7408 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> liveproject.m2k8s.web.ProfileController.processRegistration(liveproject.m2k8s.Profile): [Field error in object 'profile' on field 'password': rejected value [null]; codes [NotNull.profile.password,NotNull.password,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [profile.password,password]; arguments []; default message [password]]; default message [must not be null]] ]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /profile
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"118"]
+             Body = {"id":null,"username":"cheese","password":null,"firstName":"Chuck","lastName":"Cheese","email":"cecheese@example.com"}
+    Session Attrs = {}
+
+Handler:
+             Type = liveproject.m2k8s.web.ProfileController
+           Method = liveproject.m2k8s.web.ProfileController#processRegistration(Profile)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.web.bind.MethodArgumentNotValidException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /profile/cheese
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = liveproject.m2k8s.web.ProfileController
+           Method = liveproject.m2k8s.web.ProfileController#showProfile(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":24,"username":"cheese","password":"stilton","firstName":"Chuck","lastName":"Cheese","email":"cecheese@example.com"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2020-08-19 23:51:13.995  WARN 7408 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<liveproject.m2k8s.Profile> liveproject.m2k8s.web.ProfileController.updateProfile(liveproject.m2k8s.Profile): [Field error in object 'profile' on field 'email': rejected value [null]; codes [NotNull.profile.email,NotNull.email,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [profile.email,email]; arguments []; default message [email]]; default message [must not be null]] ]
+
+MockHttpServletRequest:
+      HTTP Method = PUT
+      Request URI = /profile/cheese
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"105"]
+             Body = {"id":null,"username":"cheese","password":"stilton","firstName":"Chuck","lastName":"Cheese","email":null}
+    Session Attrs = {}
+
+Handler:
+             Type = liveproject.m2k8s.web.ProfileController
+           Method = liveproject.m2k8s.web.ProfileController#updateProfile(Profile)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.web.bind.MethodArgumentNotValidException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2020-08-19 23:51:14.008  WARN 7408 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<liveproject.m2k8s.Profile> liveproject.m2k8s.web.ProfileController.updateProfile(liveproject.m2k8s.Profile): [Field error in object 'profile' on field 'lastName': rejected value [null]; codes [NotNull.profile.lastName,NotNull.lastName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [profile.lastName,lastName]; arguments []; default message [lastName]]; default message [must not be null]] ]
+
+MockHttpServletRequest:
+      HTTP Method = PUT
+      Request URI = /profile/cheese
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"119"]
+             Body = {"id":null,"username":"cheese","password":"stilton","firstName":"Chuck","lastName":null,"email":"cecheese@example.com"}
+    Session Attrs = {}
+
+Handler:
+             Type = liveproject.m2k8s.web.ProfileController
+           Method = liveproject.m2k8s.web.ProfileController#updateProfile(Profile)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.web.bind.MethodArgumentNotValidException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2020-08-19 23:51:14.021  WARN 7408 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> liveproject.m2k8s.web.ProfileController.processRegistration(liveproject.m2k8s.Profile): [Field error in object 'profile' on field 'lastName': rejected value [null]; codes [NotNull.profile.lastName,NotNull.lastName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [profile.lastName,lastName]; arguments []; default message [lastName]]; default message [must not be null]] ]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /profile
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"119"]
+             Body = {"id":null,"username":"cheese","password":"stilton","firstName":"Chuck","lastName":null,"email":"cecheese@example.com"}
+    Session Attrs = {}
+
+Handler:
+             Type = liveproject.m2k8s.web.ProfileController
+           Method = liveproject.m2k8s.web.ProfileController#processRegistration(Profile)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.web.bind.MethodArgumentNotValidException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /profile
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"123"]
+             Body = {"id":null,"username":"cheese","password":"stilton","firstName":"Chuck","lastName":"Cheese","email":"cecheese@example.com"}
+    Session Attrs = {}
+
+Handler:
+             Type = liveproject.m2k8s.web.ProfileController
+           Method = liveproject.m2k8s.web.ProfileController#processRegistration(Profile)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":null,"username":"cheese","password":"stilton","firstName":"Chuck","lastName":"Cheese","email":"cecheese@example.com"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2020-08-19 23:51:14.054  WARN 7408 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<liveproject.m2k8s.Profile> liveproject.m2k8s.web.ProfileController.updateProfile(liveproject.m2k8s.Profile): [Field error in object 'profile' on field 'username': rejected value [null]; codes [NotNull.profile.username,NotNull.username,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [profile.username,username]; arguments []; default message [username]]; default message [must not be null]] ]
+
+MockHttpServletRequest:
+      HTTP Method = PUT
+      Request URI = /profile/cheese
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"119"]
+             Body = {"id":null,"username":null,"password":"stilton","firstName":"Chuck","lastName":"Cheese","email":"cecheese@example.com"}
+    Session Attrs = {}
+
+Handler:
+             Type = liveproject.m2k8s.web.ProfileController
+           Method = liveproject.m2k8s.web.ProfileController#updateProfile(Profile)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.web.bind.MethodArgumentNotValidException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2020-08-19 23:51:14.065  WARN 7408 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> liveproject.m2k8s.web.ProfileController.processRegistration(liveproject.m2k8s.Profile): [Field error in object 'profile' on field 'username': rejected value [null]; codes [NotNull.profile.username,NotNull.username,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [profile.username,username]; arguments []; default message [username]]; default message [must not be null]] ]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /profile
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"119"]
+             Body = {"id":null,"username":null,"password":"stilton","firstName":"Chuck","lastName":"Cheese","email":"cecheese@example.com"}
+    Session Attrs = {}
+
+Handler:
+             Type = liveproject.m2k8s.web.ProfileController
+           Method = liveproject.m2k8s.web.ProfileController#processRegistration(Profile)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.web.bind.MethodArgumentNotValidException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2020-08-19 23:51:14.076  WARN 7408 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> liveproject.m2k8s.web.ProfileController.processRegistration(liveproject.m2k8s.Profile): [Field error in object 'profile' on field 'email': rejected value [null]; codes [NotNull.profile.email,NotNull.email,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [profile.email,email]; arguments []; default message [email]]; default message [must not be null]] ]
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /profile
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"105"]
+             Body = {"id":null,"username":"cheese","password":"stilton","firstName":"Chuck","lastName":"Cheese","email":null}
+    Session Attrs = {}
+
+Handler:
+             Type = liveproject.m2k8s.web.ProfileController
+           Method = liveproject.m2k8s.web.ProfileController#processRegistration(Profile)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.web.bind.MethodArgumentNotValidException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2020-08-19 23:51:14.092  WARN 7408 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<liveproject.m2k8s.Profile> liveproject.m2k8s.web.ProfileController.updateProfile(liveproject.m2k8s.Profile): [Field error in object 'profile' on field 'firstName': rejected value [null]; codes [NotNull.profile.firstName,NotNull.firstName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [profile.firstName,firstName]; arguments []; default message [firstName]]; default message [must not be null]] ]
+
+MockHttpServletRequest:
+      HTTP Method = PUT
+      Request URI = /profile/cheese
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"120"]
+             Body = {"id":null,"username":"cheese","password":"stilton","firstName":null,"lastName":"Cheese","email":"cecheese@example.com"}
+    Session Attrs = {}
+
+Handler:
+             Type = liveproject.m2k8s.web.ProfileController
+           Method = liveproject.m2k8s.web.ProfileController#updateProfile(Profile)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.web.bind.MethodArgumentNotValidException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.215 s - in liveproject.m2k8s.web.ProfileControllerTest
+[INFO] Running liveproject.m2k8s.web.ProfileIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.9.RELEASE)
+
+2020-08-19 23:51:14.160  INFO 7408 --- [           main] l.m2k8s.web.ProfileIntegrationTest       : Starting ProfileIntegrationTest on Jeff-LAPTOP1 with PID 7408 (started by Jeff in D:\appdata\workspace-spring-security\milestone-1-step-3)
+2020-08-19 23:51:14.160  INFO 7408 --- [           main] l.m2k8s.web.ProfileIntegrationTest       : The following profiles are active: test
+2020-08-19 23:51:14.593  INFO 7408 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-19 23:51:14.604  INFO 7408 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 1 JPA repository interfaces.
+2020-08-19 23:51:14.640  INFO 7408 --- [           main] o.s.c.a.ConfigurationClassEnhancer       : @Bean method ApplicationConfig.propertySourcesPlaceholderConfigurer is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2020-08-19 23:51:15.062  INFO 7408 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-08-19 23:51:15.079  INFO 7408 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-19 23:51:15.080  INFO 7408 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-19 23:51:15.275  INFO 7408 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-19 23:51:15.276  INFO 7408 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1113 ms
+2020-08-19 23:51:15.619  INFO 7408 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-19 23:51:15.625  INFO 7408 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-08-19 23:51:15.626  INFO 7408 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-08-19 23:51:15.627  INFO 7408 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-19 23:51:15.704  INFO 7408 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-19 23:51:15.704  INFO 7408 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-19 23:51:15.926  WARN 7408 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-19 23:51:16.031  INFO 7408 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 23:51:16.977  INFO 7408 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-08-19 23:51:17.371  INFO 7408 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51113 (http) with context path ''
+2020-08-19 23:51:17.372  INFO 7408 --- [           main] l.m2k8s.web.ProfileIntegrationTest       : Started ProfileIntegrationTest in 3.268 seconds (JVM running for 13.486)
+2020-08-19 23:51:18.380  INFO 7408 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-19 23:51:18.381  INFO 7408 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-19 23:51:18.398  INFO 7408 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+Hibernate: 
+    insert 
+    into
+        emp_profile
+        (id, email, first_name, last_name, password, username) 
+    values
+        (null, ?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        profile0_.id as id1_0_,
+        profile0_.email as email2_0_,
+        profile0_.first_name as first_na3_0_,
+        profile0_.last_name as last_nam4_0_,
+        profile0_.password as password5_0_,
+        profile0_.username as username6_0_ 
+    from
+        emp_profile profile0_ 
+    where
+        profile0_.username=?
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.657 s - in liveproject.m2k8s.web.ProfileIntegrationTest
+2020-08-19 23:51:18.779  INFO 7408 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 23:51:18.779  INFO 7408 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 23:51:18.780  INFO 7408 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-19 23:51:18.781  INFO 7408 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-19 23:51:18.782  INFO 7408 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-19 23:51:18.782  INFO 7408 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-08-19 23:51:18.785  INFO 7408 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-19 23:51:18.786  INFO 7408 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.109 s
+[INFO] Finished at: 2020-08-19T23:51:19-04:00
+[INFO] ------------------------------------------------------------------------
